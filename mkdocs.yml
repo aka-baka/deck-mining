@@ -1,6 +1,24 @@
-site_name: Decky Mining
-site_description: Text extracting and Anki mining tips for JP games on the Steam Deck
+site_name: JP Mining on Steam Deck
+site_description: Text extracting and Anki mining tips for Japanese games on the Steam Deck
 site_author: aka_baka
+nav:
+  - Home:
+    - Introduction: 'deck-mining/index.md'
+  - Setup:
+    - Setup Introduction: 'deck-mining/setupIntro.md'
+    - Basic Tools: 'deck-mining/setupBasics.md'
+    - Hooking Steam Games: 'deck-mining/hookSteamGames.md'
+    - Hooking Lutris or Other proton Launcher Games: 'deck-mining/hookLutrisGames.md'
+    - Hooking Linux Games or Emulators: 'deck-mining/hookEmuDeck.md'
+    - Using OCR: 'deck-mining/OCR.md'
+    - Mining to Anki: 'deck-mining/mining.md'
+    - Controller Mapping: 'deck-mining/controller.md'
+  - Extras:
+    - Misc Tips: 'deck-mining/tips.md'
+    - Resources: 'deck-mining/resources.md'
+    - Dual-boot Windows: 'deck-mining/dualBootWin.md'
+  - Acknowledgements: 'deck-mining/acknowledgements.md'
+    
 theme:
   name: material
   features:

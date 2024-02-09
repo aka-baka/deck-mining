@@ -1,3 +1,0 @@
-# Home
-
-Still a draft.
