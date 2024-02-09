@@ -6,7 +6,7 @@ nav:
     - Introduction: 'deck-mining/index.md'
   - Setup:
     - Setup Introduction: 'deck-mining/setupIntro.md'
-    - Basic Tools: 'deck-mining/setupBasics.md'
+    - Tools: 'deck-mining/setupBasics.md'
     - Hooking Steam Games: 'deck-mining/hookSteamGames.md'
     - Hooking Lutris or Other proton Launcher Games: 'deck-mining/hookLutrisGames.md'
     - Hooking Linux Games or Emulators: 'deck-mining/hookEmuDeck.md'
