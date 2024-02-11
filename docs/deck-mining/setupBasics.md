@@ -8,7 +8,7 @@ Download Textractor [here](https://github.com/Artikash/Textractor). You can also
 Unzip and keep it in a folder you remember. We'll need this path later.
 
 ### Agent
-Download Agent [here](https://github.com/0xDC00/agent). Get both the Windows and Linux versions. Unzip them and keep them in a folder you remember, you'll need the paths later.  
+Download Agent [here](https://github.com/0xDC00/agent). Get both the Windows and Linux versions. Unzip them and keep them in a folder you remember, we'll need the paths later.  
 I personally don't use their OCR server, but other OCR tools below.
 
 ### OCR
