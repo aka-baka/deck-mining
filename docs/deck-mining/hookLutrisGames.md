@@ -5,4 +5,4 @@ So the challenge is to ensure Textractor or Agent will launch in the same prefix
 As long as you have a working prefix for your game, you can use the same prefix to launch Textractor or Agent, and everything else will work the same like hooking a Steam game.
 
 
-Note: unfortunately the VN wiki is bugging out and not displaying images as of the time of this writing, so you might want to check [archived pages at the Internet Wayback Machine](http://web.archive.org/web/20241001000000*/www.visualnovelwiki.org) instead.
+Note: unfortunately the VN wiki is bugging out and not displaying images as of the time of this writing, so you might want to check [archived pages at the Internet Wayback Machine](http://web.archive.org/web/20230630100108/https://www.visualnovelwiki.org/en/home) instead.
