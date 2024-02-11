@@ -6,7 +6,7 @@ I'll be going through [OwOcr](https://github.com/AuroraWright/owocr) here. If yo
 ```console
 python -m ensurepip --upgrade
 ```
-This will install pip into ~/.local/bin. We need to add this to PATH as well. 
+This will install pip into ~/.local/bin. We need to add this to PATH as well.   
 2. edit `~/.bashrc` in something like Kate, add this to the end of the file:
 ```bash
 if [ -d "$HOME/.local/bin" ]; then
