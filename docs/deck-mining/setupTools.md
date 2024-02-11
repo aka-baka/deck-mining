@@ -18,7 +18,7 @@ Some options:
 I personally haven't installed YomiNinja on SteamOS, so no guarantees or help there.  
 
 ## To display and look up text:
-### A browser that supports Yomitan extension(eg. Firefox, Chrome, Chromium browsers)
+### A browser that supports Yomitan extension (eg. Firefox, Chrome, Chromium browsers)
 I installed flatpaks through the Discover store.
 
 ### Yomitan extension
