@@ -9,7 +9,7 @@ Also the performance is going to be bad for games in general.
 
 # Tools on Windows
 There are some tools I did not recommend in the main guide as the installation is a pain in Linux. If you're using Windows, you can consider using these tools:
-1. YomiNinja for OCR
+1. [YomiNinja](https://github.com/matt-m-o/YomiNinja) for OCR
 2. [JL](https://github.com/rampaa/JL) as an alternative to texthook pages. This overlays the text directly on top of the game window.
 Limitation: it supports mining to Anki, but not handlebars so you might not be able to use fancy Anki card templates that you use with Yomitan on a browser.
 3. [ShareX](https://getsharex.com/) is an essential tool, you can get screenshots and record audio easily.
