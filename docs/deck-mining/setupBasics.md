@@ -38,6 +38,9 @@ Install Anki from Discover store.
 ### Anki addons
 Install [Ankiconnect](https://ankiweb.net/shared/info/2055492159). You'll need this to add Anki cards from Yomitan.
 
+### Mining with Yomitan 
+Make sure your Yomitan settings are correct and it's able to see the Anki deck you'll add cards to, all fields are correct, etc.
+
 ## Optional: offline and more audio sources for Yomitan
 Follow the guide [here](https://github.com/themoeway/local-audio-yomichan) to enable offline and more audio sources for Yomitan.  
 Note: by default, this uses Anki to run, but you can also host it locally using Python 3.9 or above. Also, this will take up ~2.5 to 5GB of disk space depending on the audio format you choose, please ensure you have enough space.
