@@ -7,7 +7,7 @@ I'll be going through [OwOcr](https://github.com/AuroraWright/owocr) here. If yo
 python -m ensurepip --upgrade
 ```
 This will install pip into ~/.local/bin. We need to add this to PATH as well.   
-2. edit `~/.bashrc` in something like Kate, add this to the end of the file:
+2. edit `~/.bashrc` in something like `Kate` or `vim`, add this to the end of the file:
 ```bash
 if [ -d "$HOME/.local/bin" ]; then
   PATH="$HOME/.local/bin:$PATH"
