@@ -1,5 +1,5 @@
 # Running Windows on the Steam Deck
-For when something really cannot work in Linux, or you're lazy to fiddle around with Lutris/Bottle settings to get a VN working.  
+For when something really cannot work in Linux, or you're lazy to fiddle around with Lutris/Bottle/proton settings to get a VN working.  
 
 There are a few options:
 1. in SteamOS, run Windows as a virtual machine (using Boxes for example)
