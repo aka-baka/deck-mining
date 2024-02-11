@@ -14,6 +14,7 @@ nav:
     - Using OCR: 'deck-mining/OCR.md'
     - Mining to Anki: 'deck-mining/mining.md'
     - Controller Mapping: 'deck-mining/controller.md'
+    - Demos: 'deck-mining/demos.md'
   - Extras:
     - Misc Tips: 'deck-mining/tips.md'
     - Resources: 'deck-mining/resources.md'
