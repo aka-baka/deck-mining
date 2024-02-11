@@ -6,4 +6,4 @@ Things you will want to launch every time you want to do immersion learning gami
 
 I personally just launch everything manually myself, but you could write a short bash script to start them all if you want. 
 
-It's time to then launch the game and hook it. Follow the relevant parts in the following sections, you'll only need to do one type hooking for a game.
+It's time to then launch the game and hook it. Follow the relevant parts in the following sections, you'll only need to do one type of hooking for a game.
