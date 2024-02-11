@@ -6,7 +6,7 @@
 
 ## Tsuyuchiru + Lutris + Textractor
 
-## ?? + owocr
+## Zero Time Dilemma + owocr
 
 ## Mining to Anki
 
