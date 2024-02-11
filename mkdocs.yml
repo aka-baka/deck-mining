@@ -16,7 +16,7 @@ nav:
   - Extras:
     - Misc Tips: 'deck-mining/tips.md'
     - Resources: 'deck-mining/resources.md'
-    - Dual-boot Windows: 'deck-mining/dualBootWin.md'
+    - Run Windows: 'deck-mining/runWin.md'
   - Acknowledgements: 'deck-mining/acknowledgements.md'
     
 theme:
