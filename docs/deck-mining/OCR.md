@@ -6,6 +6,7 @@ Also I'm having trouble installing owocr in a Python venv, but I need venv to in
 <details>
 
 <summary>Just for my reference, does not work</summary>
+
 I'll be going through [OwOcr](https://github.com/AuroraWright/owocr) here. If you're comfortable with installing software through pacman, you can also check out YomiNinja.
 
 ## Install OwOcr
