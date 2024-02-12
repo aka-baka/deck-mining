@@ -3,6 +3,9 @@
 manga_ocr currently does not work due to missing xclip or wl-paste. It used to work but looks like some SteamOS update broke it.
 Also I'm having trouble installing owocr in a Python venv, but I need venv to install OCR services like Google Lens or EasyOCR, so I'm currently stuck.
 
+<details>
+
+<summary>Just for my reference, does not work</summary>
 I'll be going through [OwOcr](https://github.com/AuroraWright/owocr) here. If you're comfortable with installing software through pacman, you can also check out YomiNinja.
 
 ## Install OwOcr
@@ -38,3 +41,4 @@ Reference: (https://www.reddit.com/r/SteamDeck/comments/x4ct1r/how_do_i_do_a_pip
 
 ## Using OwOcr
 `To be added`
+</details>
