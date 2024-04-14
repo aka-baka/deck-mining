@@ -6,8 +6,9 @@
 
 ## Tsuyuchiru + Lutris + Textractor
 
-## Zero Time Dilemma + owocr
+## Zero Time Dilemma + owocr (planned)
 
 ## Mining to Anki
 
-## Bonus: YomiNinja on Windows
+## Bonus: YomiNinja on Windows (planned)
+## Trails of Cold Steel + Agent on Windows
