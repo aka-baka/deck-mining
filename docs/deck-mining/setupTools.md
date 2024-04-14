@@ -11,9 +11,9 @@ Unzip and keep it in a folder you remember. We'll need this path later.
 Download Agent [here](https://github.com/0xDC00/agent). Get both the Windows and Linux versions. Unzip them and keep them in a folder you remember, we'll need the paths later.  
 I personally don't use their OCR server, but other OCR tools below.
 
-### OCR
+### OCR - have not personally tried
 Some options:
-- [owocr](https://github.com/AuroraWright/owocr) - my personal recommendation on SteamOS for now. You just need python (already available by default) to install it.
+- [owocr](https://github.com/AuroraWright/owocr)
 - [YomiNinja](https://github.com/matt-m-o/YomiNinja) - for advanced Linux users (you need to know what you're doing with pacman). This tool is still fast-evolving and currently installation on SteamOS (Linux) is still a bit more complicated (and there's a risk of breaking SteamOS with conflicting dependencies). You can follow news updates on their Patreon to get a sneak peek of the upcoming features.
 I personally haven't installed YomiNinja on SteamOS, so no guarantees or help there.  
 
