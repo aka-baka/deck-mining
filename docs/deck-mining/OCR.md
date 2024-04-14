@@ -43,3 +43,5 @@ Reference: (https://www.reddit.com/r/SteamDeck/comments/x4ct1r/how_do_i_do_a_pip
 ## Using OwOcr
 `To be added`
 </details>
+
+Note: I did not manage to try it, but it may be possible to install python and the ocr tools properly through podman and/or distrobox without having to unlock the Deck and use pac-man. If you manage to get it working, feel free to share!
