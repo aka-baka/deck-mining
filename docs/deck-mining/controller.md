@@ -15,6 +15,11 @@ If you're using SteamTinkerLaunch, you'll want to ensure something (I suggest to
 
 Steam + x will bring up the on-screen keyboard.
 
+For VNs, you'll likely want to map these actions if it's not already in your config:
+- replay audio
+- bring up backlog
+- quick save, quick load
+
 ## Templates
 (WIP) It should be possible to save a config as a template to make it easier to set up for other games, but I have not done this yet.
 
