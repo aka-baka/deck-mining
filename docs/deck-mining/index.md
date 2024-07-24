@@ -4,9 +4,9 @@ Still a draft.
 
 ## Introduction
 
-Note: If you are planning on playing a lot of VN's that is not Steam Deck certified or native Linux, you might want to consider using Windows, check out dual-booting Windows. Or using a virtual machine. It'll save you fiddling with a lot of settings. Check out [Running Windows on the Steam Deck](runWin.md) for more info.
+The bulk of this guide will be what I tried on default SteamOS. If you're planning to go the Windows route, the tips and controller section of the guide might still be helpful.
 
-On that note, the bulk of this guide will be what I tried on default SteamOS. If you're planning to go the Windows route, the tips and controller section of the guide might still be helpful.
+If you are planning on playing a lot of VN's that is not Steam Deck certified or native Linux, and you don't have the patience to fiddle with settings to get those VN's working right, you might want to consider using Windows. Check out dual-booting Windows, or using a virtual machine in SteamOS desktop mode. See [Running Windows on the Steam Deck](runWin.md) for more info.
 
 ## Typical lookup and mining workflow
 

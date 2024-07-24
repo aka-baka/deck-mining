@@ -23,7 +23,7 @@ nav:
   - Acknowledgements: 'deck-mining/acknowledgements.md'
     
 theme:
-  name: material
+  name: readthedocs
   features:
     - navigation.tabs
     - navigation.sections
