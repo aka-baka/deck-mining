@@ -4,9 +4,9 @@ site_description: Text extracting and Anki mining tips for Japanese games on the
 site_author: aka_baka
 nav:
   - Home:
-    - Introduction: 'index.md'
+    - Introduction: 'deck-mining/index.md'
   - Setup:
-    - Setup Introduction: 'setupIntro.md'
+    - Setup Introduction: 'deck-mining/setupIntro.md'
     - Tools: 'deck-mining/setupTools.md'
     - Getting Things Ready Before Playing: 'deck-mining/beforePlaying.md'
     - Hooking Steam Games: 'deck-mining/hookSteamGames.md'
