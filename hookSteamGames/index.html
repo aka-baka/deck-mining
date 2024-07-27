@@ -12,28 +12,28 @@
         <meta name="author" content="aka_baka">
       
       
-        <link rel="canonical" href="https://aka-baka.github.io/deck-mining/deck-mining/hookEmuDeck/">
+        <link rel="canonical" href="https://aka-baka.github.io/deck-mining/hookSteamGames/">
       
       
-        <link rel="prev" href="../hookLutrisGames/">
+        <link rel="prev" href="../beforePlaying/">
       
       
-        <link rel="next" href="../OCR/">
+        <link rel="next" href="../hookLutrisGames/">
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.30">
     
     
       
-        <title>Hooking Linux Games or Emulators - JP Mining on Steam Deck</title>
+        <title>Hooking Steam Games - JP Mining on Steam Deck</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.3cba04c6.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.3cba04c6.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -52,7 +52,7 @@
       
     
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#hooking-linux-games-or-emulators" class="md-skip">
+        <a href="#hooking-steam-games" class="md-skip">
           Skip to content
         </a>
       
@@ -92,7 +92,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="JP Mining on Steam Deck" class="md-header__button md-logo" aria-label="JP Mining on Steam Deck" data-md-component="logo">
+    <a href=".." title="JP Mining on Steam Deck" class="md-header__button md-logo" aria-label="JP Mining on Steam Deck" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Hooking Linux Games or Emulators
+              Hooking Steam Games
             
           </span>
         </div>
@@ -211,7 +211,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../" class="md-tabs__link">
+        <a href=".." class="md-tabs__link">
           
   
   Home
@@ -299,7 +299,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="JP Mining on Steam Deck" class="md-nav__button md-logo" aria-label="JP Mining on Steam Deck" data-md-component="logo">
+    <a href=".." title="JP Mining on Steam Deck" class="md-nav__button md-logo" aria-label="JP Mining on Steam Deck" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -357,7 +357,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -490,10 +490,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../hookSteamGames/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -502,6 +511,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -532,19 +542,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../hookEmuDeck/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -553,7 +554,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -813,10 +813,22 @@
                   
 
 
-<h1 id="hooking-linux-games-or-emulators">Hooking Linux Games or Emulators</h1>
-<p>This is the most straightforward. Just launch your game, then launch Textractor or Agent yourself.<br />
-For emulators, I've only tested Yuzu. Linux version of Agent works with it.<br />
-I have not tried other emulators, not sure if Agent or Textractor would be able to work with them. (If you've tried, let me know your experience!)</p>
+<h1 id="hooking-steam-games">Hooking Steam Games</h1>
+<p>How to hook Steam games (or games you've added shortcut to Steam and launching with Steam). We'll be using SteamTinkerLaunch to fork Textractor/Agent when the game starts. 
+1. download <a href="https://github.com/sonic2kk/steamtinkerlaunch">SteamTinkerLaunch</a>
+2. follow the <a href="https://github.com/sonic2kk/steamtinkerlaunch">instructions at SteamTinkerLaunch page</a> to use it with your game, either as a Compatibility Tool (if the game is not native Linux and is running on Proton), or as a Launch Option (if the game is native Linux).
+3. <a href="https://github.com/sonic2kk/steamtinkerlaunch/wiki/Steam-Compatibility-Tool">this page</a> has a demo of adding as a compatibility tool
+4. launch your game. By default the SteamTinkerLaunch menu will display for 2 seconds. Click on <code>MAIN MENU</code> before it disappears.
+   (tip: the controller mapping for your game will be used, so you might find pressing the right trigger doesn't do a mouse click. You can use the touch screen instead, or else map something to left click in your game controller mappings.) The time this menu displays can be customized in SteamTinkerLaunch settings.
+5. Click on <code>GAME MENU</code>.
+<img alt="Main menu" src="../img/steam-tinker-launch-main-menu.png" title="Main menu" />
+7. In the game menu, tick <code>Fork custom command</code>, and click on the box beside <code>Custom command</code>. Select the program you need (Textractor or Agent) from where you saved them.
+<img alt="Add forked custom command in game menu" src="../img/steam-tinker-launch-fork-textractor.png" title="Fork custom command" />
+9. click on <code>SAVE AND PLAY</code>. Your game will launch together with the the program you put in #5.
+10. hook the game with Textractor or Agent. (you may want to customize your game mappings so you can use trackpad as mouse and click. Especially for Agent where you'll need to drag &amp; drop the crosshair.)
+11. play the game, and Alt-Tab to the texthook page when you want to look up words, then Alt-Tab back. Enjoy!
+12. optional: once you're sure you won't want to change anything in SteamTinkerLaunch for that game, you can disable the display before the game launches.</p>
+<p>Note: SteamTinkerLaunch will always try to update itself before launching, so it'll take a bit more time to launch your games.</p>
 
 
 
@@ -837,7 +849,7 @@ I have not tried other emulators, not sure if Agent or Textractor would be able 
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">February 11, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 27, 2024</span>
   </span>
 
     
@@ -875,7 +887,7 @@ I have not tried other emulators, not sure if Agent or Textractor would be able 
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../hookLutrisGames/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Hooking Lutris or Other proton Launcher Games">
+          <a href="../beforePlaying/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Getting Things Ready Before Playing">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -885,20 +897,20 @@ I have not tried other emulators, not sure if Agent or Textractor would be able 
                 Previous
               </span>
               <div class="md-ellipsis">
-                Hooking Lutris or Other proton Launcher Games
+                Getting Things Ready Before Playing
               </div>
             </div>
           </a>
         
         
           
-          <a href="../OCR/" class="md-footer__link md-footer__link--next" aria-label="Next: Using OCR">
+          <a href="../hookLutrisGames/" class="md-footer__link md-footer__link--next" aria-label="Next: Hooking Lutris or Other proton Launcher Games">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Using OCR
+                Hooking Lutris or Other proton Launcher Games
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -932,10 +944,10 @@ I have not tried other emulators, not sure if Agent or Textractor would be able 
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "content.code.annotation", "content.code.copy", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "content.code.annotation", "content.code.copy", "content.tabs.link"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
+      <script src="../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
       
     
   </body>
