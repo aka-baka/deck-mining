@@ -15,7 +15,7 @@ nav:
     - Using OCR: 'OCR.md'
     - Mining to Anki: 'mining.md'
     - Controller Mapping: 'controller.md'
-    - Demos: 'demos.md'
+  - Demos: 'demos.md'
   - Extras:
     - Misc Tips: 'tips.md'
     - Resources: 'resources.md'
