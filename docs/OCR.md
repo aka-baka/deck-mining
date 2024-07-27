@@ -1,47 +1,30 @@
 # OCR
-> :heavy_exclamation_mark: CURRENTLY DOES NOT WORK. Steps below are for reference only of what I've tried.
-manga_ocr currently does not work due to missing xclip or wl-paste. It used to work but looks like some SteamOS update broke it.
-Also I'm having trouble installing owocr in a Python venv, but I need venv to install OCR services like Google Lens or EasyOCR, so I'm currently stuck.
 
-<details>
+I have only limited experience with Yomininja so far, so this section may get expanded on later.
+Some other alternative OCR options are the OCR engine that comes with Agent, or [owocr](https://github.com/AuroraWright/owocr). (I have not tried them.)
 
-<summary>Just for my reference, does not work</summary>
+## Running Yomininja
 
-I'll be going through [OwOcr](https://github.com/AuroraWright/owocr) here. If you're comfortable with installing software through pacman, you can also check out YomiNinja.
+[Yomininja](https://github.com/matt-m-o/YomiNinja) has a lot of release files to cater for different operating systems; you don't need them all. Just download the `.AppImage` (example highlighted in the red box).
 
-## Install OwOcr
-1. Create a Python virtual env (need this for manga_ocr on the Steam Deck, or it'll complain about externally managed environment and possibility of breaking the OS if you try to override it). Open Konsole and type or paste in following:
-```console
-python3 -m venv ocr
-source ocr/bin/activate
-```
-2. install pip 
-```console
-python -m ensurepip --upgrade
-```
-This will install pip into ~/.local/bin. We need to add this to PATH as well.   
-3. edit `~/.bashrc` in something like `Kate` or `vim`, add this to the end of the file:
-```bash
-if [ -d "$HOME/.local/bin" ]; then
-  PATH="$HOME/.local/bin:$PATH"
-fi
-```
-4. Test it's working:
-```console
-~/.local/bin/pip -V
-```
-5. Now we can install owocr:
-```console
-pip install owocr
-```
-6. And install manga_ocr:
-```console
-pip install manga_ocr
-```
-Reference: (https://www.reddit.com/r/SteamDeck/comments/x4ct1r/how_do_i_do_a_pip3_install/)
+Get the `.exe` if you're going to run in Windows (example highlighted in the yellow box).
+![Yomininja executable](./img/Yomininja_files.png "Yomininja executable")
 
-## Using OwOcr
-`To be added`
-</details>
+## Using the OCR
 
-Note: I did not manage to try it, but it may be possible to install python and the ocr tools properly through podman and/or distrobox without having to unlock the Deck and use pac-man. If you manage to get it working, feel free to share!
+!!! note ""
+    This section will be expanded later as I get around to trying it out more.
+
+Launch your game, then just double click on the Yomininja AppImage to start it (it doesn't need any installation).
+After that, configure Yomininja settings. Try out the different settings like always-on-top, or the different OCR engines.
+
+Map a key to trigger Yomininja OCR in the game controller config.
+
+Known limitations: the always-on overlay only works with windowed games in SteamOS (not full-screen or borderless window). You can either:
+
+- alt-tab to the overlay like how you would alt-tab to a browser texthook page
+- live with windowed mode for your game
+- workaround by faking a full-screen experience by setting the taskbar to autohide, hiding the window titlebar, and maximizing the window through the taskbar
+
+!!! warning ""
+    Do not launch Yomininja with always-on-top and a full-screen game, I experienced the overlay blocking everything and couldn't quit Yomininja or the game, ended up having to force shut down by pressing the power button.

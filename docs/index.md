@@ -24,6 +24,7 @@ This guide will go through:
 - controller config and other Steam Deck tips
 - extras (Windows, other resources)
 
-Note: I will focus only on games and not cover other aspects of immersion learning such as reading novels or manga or watching anime in this guide. (I prefer to consume those media on other devices.)
+Note: I assume some familiarity with the mining workflow already and will not go in-depth into using Textractor or Agent. If you have not used them before, please refer to the tool manual or the other guides I've linked that do teach how to use them.
 
+Also, I will focus only on games and not cover other aspects of immersion learning such as reading novels or manga or watching anime in this guide. (I prefer to consume those media on other devices.)
 If you want to use the Steam Deck for those, I believe the Linux workflows for mining those should work as well, just refer to the guides linked earlier.
