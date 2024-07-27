@@ -4,23 +4,23 @@ site_description: Text extracting and Anki mining tips for Japanese games on the
 site_author: aka_baka
 nav:
   - Home:
-    - Introduction: 'deck-mining/index.md'
+    - Introduction: 'index.md'
   - Setup:
-    - Setup Introduction: 'deck-mining/setupIntro.md'
-    - Tools: 'deck-mining/setupTools.md'
-    - Getting Things Ready Before Playing: 'deck-mining/beforePlaying.md'
-    - Hooking Steam Games: 'deck-mining/hookSteamGames.md'
-    - Hooking Lutris or Other proton Launcher Games: 'deck-mining/hookLutrisGames.md'
-    - Hooking Linux Games or Emulators: 'deck-mining/hookEmuDeck.md'
-    - Using OCR: 'deck-mining/OCR.md'
-    - Mining to Anki: 'deck-mining/mining.md'
-    - Controller Mapping: 'deck-mining/controller.md'
-    - Demos: 'deck-mining/demos.md'
+    - Setup Introduction: 'setupIntro.md'
+    - Tools: 'setupTools.md'
+    - Getting Things Ready Before Playing: 'beforePlaying.md'
+    - Hooking Steam Games: 'hookSteamGames.md'
+    - Hooking Lutris or Other proton Launcher Games: 'hookLutrisGames.md'
+    - Hooking Linux Games or Emulators: 'hookEmuDeck.md'
+    - Using OCR: 'OCR.md'
+    - Mining to Anki: 'mining.md'
+    - Controller Mapping: 'controller.md'
+    - Demos: 'demos.md'
   - Extras:
-    - Misc Tips: 'deck-mining/tips.md'
-    - Resources: 'deck-mining/resources.md'
-    - Run Windows: 'deck-mining/runWin.md'
-  - Acknowledgements: 'deck-mining/acknowledgements.md'
+    - Misc Tips: 'tips.md'
+    - Resources: 'resources.md'
+    - Run Windows: 'runWin.md'
+  - Acknowledgements: 'acknowledgements.md'
     
 theme:
   name: material
