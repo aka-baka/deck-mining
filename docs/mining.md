@@ -3,7 +3,9 @@
 ## How to save screenshots to Anki
 
 Save this shell script to your Deck, keep it somewhere you'll remember.
+
 Calling this script will capture the active window and save it to the latest Anki note, and display a notification (depending on your notification settings, you may not see it when in-game).
+
 With thanks to Xythh whom I got the code snippet from and just made minor edits to work on the Deck.
 
 Change the `pictureField` variable if your field name in the Anki card is different.
@@ -51,12 +53,14 @@ else
     notify-send "Ankiconnect is not running, unable to save screenshot to Anki card."
 fi
 rm "$tmp_file.jpg"
- ```
+```
 
 ## How to record audio to Anki
 
 Save this shell script to your Deck, keep it somewhere you'll remember.
+
 Calling this script will start recording audio, calling it again will stop recording and save the audio clip to the latest Anki note.
+
 Likewise, with thanks to Xythh for 99% of the code.
 
 Change the `SentenceAudio` variable if your field name in the Anki card is different.
