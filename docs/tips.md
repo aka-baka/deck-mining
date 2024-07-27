@@ -1,6 +1,8 @@
 # Tips
+
 ## Misc tips
-- Adjust zoom factor of Yomitan and your texthook page. I like to use between 125 - 150%.
+
+- Adjust zoom factor of Yomitan and your texthook page. I like to use between 110 - 150%.
 - There are times (especially when setting up) where it'll be much easier if you have a keyboard and mouse. A few options:
   - Use bluetooth kb+m
   - Get a usb-c dock and connect your kb+m
@@ -12,11 +14,15 @@
 - disable mouse in the game if supported to avoid camera moving around or accidentally advancing text when grabbing a screenshot for OCR. Eg. Senpatcher for Sen no Kiseki can disable mouse in-game
 
 ## Transferring files
+
 Options:
+
 - SFTP (eg, WinSCP or FileZilla on Windows) - recommended as it was the easiest for me.
 - KDE Connect (only for small files, it fails for files larger than a couple of GB for me)
 - Warpinator (failed a few times on me)
+
 Others I know of but didn't use:
+
 - Syncthing
 - sshfs
 - deckMTP

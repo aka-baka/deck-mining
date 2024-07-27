@@ -12,5 +12,5 @@ And you, dear reader who've made it to this page, thank you. I hope there's been
 
 ## Contact
 
-I can be reached as `aka_baka` on TheMoeWay discord, or you can create pull requests for [this repo](https://github.com/aka-baka/deck-mining)
+I can be reached as `aka_baka` on TheMoeWay discord, or you can create pull requests for [this repo](https://github.com/aka-baka/deck-mining).
 Thank you!

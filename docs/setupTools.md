@@ -12,33 +12,30 @@ Unzip and keep it in a folder you remember. We'll need this path later.
 ### Agent
 
 Download Agent [here](https://github.com/0xDC00/agent). Get both the Windows and Linux versions. Unzip them and keep them in a folder you remember, we'll need the paths later.  
-I personally don't use their OCR server, but other OCR tools below.
+I personally don't use their OCR server, but other OCR tools below. You can try it out though.
 
-### OCR - have not personally tried
+### OCR - limited personal experience, will update more later
 
 Some options:
 
-- [owocr](https://github.com/AuroraWright/owocr)
-
-- [YomiNinja](https://github.com/matt-m-o/YomiNinja) - for advanced Linux users (you need to know what you're doing with pacman). This tool is still fast-evolving and currently installation on SteamOS (Linux) is still a bit more complicated (and there's a risk of breaking SteamOS with conflicting dependencies). You can follow news updates on their Patreon to get a sneak peek of the upcoming features.
-
-I personally haven't installed YomiNinja on SteamOS, so no guarantees or help there.  
+- [YomiNinja](https://github.com/matt-m-o/YomiNinja) - Use the Linux appimage from the latest release. This tool is still fast-evolving. You can follow news updates on their Patreon to get a sneak peek of the upcoming features.
+- [owocr](https://github.com/AuroraWright/owocr) - I haven't tried this out yet
 
 ## To display and look up text
 
 ### A browser that supports Yomitan extension (eg. Firefox, Chrome, Chromium browsers)
 
-I installed flatpaks through the Discover store.
+Install your favorite browser through the Discover store.
 
 ### Yomitan extension
 
 Download the extension from your respective browser store, and refer to the [Yomitan main page](https://github.com/themoeway/yomitan) for instructions on migrating from Yomichan/setting up etc.  
 If you already have a working Yomichan/Yomitan setup on another device, you can export the dictionaries and settings, and import on the Steam Deck.  
-If you're starting from scratch and want a quick setup, you can consider using [Xelieu's Lazy Guide](https://xelieu.github.io/jp-lazy-guide/setupYomitanOnPC/) (I highly recommend this guide as a whole as well.)
+If you're starting from scratch and want a quick setup, you can consider using [Xelieu's Lazy Guide](https://xelieu.github.io/jp-lazy-guide/setupYomitanOnPC/) or [Donkuri's guide](https://donkuri.github.io/learn-japanese/setup/#yomitan-setup)
 
 ### A browser texthook page
 
-Pick one you like. I recommend pages that use websocket instead of relying on clipboard inserter (old and inferior method):  
+Pick one you like. I recommend pages that use websocket instead of relying on clipboard inserter (older and inferior method):  
 
 - [exSTATic](https://github.com/KamWithK/exSTATic) has historical stats visualization in addition to the texthook page. Remember to install the TextractorSender dll as well as listed in the instructions.
 
