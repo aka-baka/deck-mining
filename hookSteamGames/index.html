@@ -246,6 +246,23 @@
   
   
   
+    <li class="md-tabs__item">
+      <a href="../demos/" class="md-tabs__link">
+        
+  
+    
+  
+  Demos
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
     
     
       <li class="md-tabs__item">
@@ -622,8 +639,15 @@
 
               
             
-              
-                
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
   
   
   
@@ -638,14 +662,6 @@
   
 
       </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
     </li>
   
 
@@ -669,10 +685,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -683,8 +699,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             Extras
           </label>
@@ -814,20 +830,22 @@
 
 
 <h1 id="hooking-steam-games">Hooking Steam Games</h1>
-<p>How to hook Steam games (or games you've added shortcut to Steam and launching with Steam). We'll be using SteamTinkerLaunch to fork Textractor/Agent when the game starts. 
-1. download <a href="https://github.com/sonic2kk/steamtinkerlaunch">SteamTinkerLaunch</a>
-2. follow the <a href="https://github.com/sonic2kk/steamtinkerlaunch">instructions at SteamTinkerLaunch page</a> to use it with your game, either as a Compatibility Tool (if the game is not native Linux and is running on Proton), or as a Launch Option (if the game is native Linux).
-3. <a href="https://github.com/sonic2kk/steamtinkerlaunch/wiki/Steam-Compatibility-Tool">this page</a> has a demo of adding as a compatibility tool
-4. launch your game. By default the SteamTinkerLaunch menu will display for 2 seconds. Click on <code>MAIN MENU</code> before it disappears.
-   (tip: the controller mapping for your game will be used, so you might find pressing the right trigger doesn't do a mouse click. You can use the touch screen instead, or else map something to left click in your game controller mappings.) The time this menu displays can be customized in SteamTinkerLaunch settings.
-5. Click on <code>GAME MENU</code>.
-<img alt="Main menu" src="../img/steam-tinker-launch-main-menu.png" title="Main menu" />
-7. In the game menu, tick <code>Fork custom command</code>, and click on the box beside <code>Custom command</code>. Select the program you need (Textractor or Agent) from where you saved them.
-<img alt="Add forked custom command in game menu" src="../img/steam-tinker-launch-fork-textractor.png" title="Fork custom command" />
-9. click on <code>SAVE AND PLAY</code>. Your game will launch together with the the program you put in #5.
-10. hook the game with Textractor or Agent. (you may want to customize your game mappings so you can use trackpad as mouse and click. Especially for Agent where you'll need to drag &amp; drop the crosshair.)
-11. play the game, and Alt-Tab to the texthook page when you want to look up words, then Alt-Tab back. Enjoy!
-12. optional: once you're sure you won't want to change anything in SteamTinkerLaunch for that game, you can disable the display before the game launches.</p>
+<p>How to hook Steam games (or games you've added shortcut to Steam and launching with Steam). We'll be using SteamTinkerLaunch to fork Textractor/Agent when the game starts. This ensures Textractor/Agent will start in the same proton/wine prefix as your game. (Don't sweat it if you don't understand that last sentence, you'll learn about it when you need to.)</p>
+<ol>
+<li>download <a href="https://github.com/sonic2kk/steamtinkerlaunch">SteamTinkerLaunch</a></li>
+<li>follow the <a href="https://github.com/sonic2kk/steamtinkerlaunch">instructions at SteamTinkerLaunch page</a> to use it with your game, either as a Compatibility Tool (if the game is not native Linux and is running on Proton), or as a Launch Option (if the game is native Linux).</li>
+<li><a href="https://github.com/sonic2kk/steamtinkerlaunch/wiki/Steam-Compatibility-Tool">this page</a> has a demo of adding as a compatibility tool</li>
+<li>launch your game. By default the SteamTinkerLaunch menu will display for 2 seconds. Click on <code>MAIN MENU</code> before it disappears.
+   (tip: the controller mapping for your game will be used, so you might find pressing the right trigger doesn't do a mouse click. You can use the touch screen instead, or else map something to left click in your game controller mappings.) The time this menu displays can be customized in SteamTinkerLaunch settings.</li>
+<li>Click on <code>GAME MENU</code>.
+<img alt="Main menu" src="../img/steam-tinker-launch-main-menu.png" title="Main menu" /></li>
+<li>In the game menu, tick <code>Fork custom command</code>, and click on the box beside <code>Custom command</code>. Select the program you need (Textractor or Agent) from where you saved them.
+<img alt="Add forked custom command in game menu" src="../img/steam-tinker-launch-fork-textractor.png" title="Fork custom command" /></li>
+<li>click on <code>SAVE AND PLAY</code>. Your game will launch together with the the program you put in #5.</li>
+<li>hook the game with Textractor or Agent. (you may want to customize your game mappings so you can use trackpad as mouse and click. Especially for Agent where you'll need to drag &amp; drop the crosshair.)</li>
+<li>play the game, and Alt-Tab to the texthook page when you want to look up words, then Alt-Tab back. Enjoy!</li>
+<li>optional: once you're sure you won't want to change anything in SteamTinkerLaunch for that game, you can disable the display before the game launches.</li>
+</ol>
 <p>Note: SteamTinkerLaunch will always try to update itself before launching, so it'll take a bit more time to launch your games.</p>
 
 
