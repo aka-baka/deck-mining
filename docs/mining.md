@@ -207,8 +207,10 @@ Game controller config - you'll need to do this for every game. Map the shortcut
 
 ```note
     todo: clarify with screenshots
+```
 
 ## Enabling pop-up notification when saving screenshot or audio to Anki
 
 ```note
     todo: write section with screenshots
+```
