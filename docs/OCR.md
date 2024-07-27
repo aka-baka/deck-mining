@@ -3,7 +3,7 @@
 I have only limited experience with Yomininja so far, so this section may get expanded on later.
 Some other alternative OCR options are the OCR engine that comes with Agent, or [owocr](https://github.com/AuroraWright/owocr). (I have not tried them.)
 
-## Running Yomininja
+## Get Yomininja
 
 [Yomininja](https://github.com/matt-m-o/YomiNinja) has a lot of release files to cater for different operating systems; you don't need them all. Just download the `.AppImage` (example highlighted in the red box).
 
@@ -26,5 +26,5 @@ Known limitations: the always-on overlay only works with windowed games in Steam
 - live with windowed mode for your game
 - workaround by faking a full-screen experience by setting the taskbar to autohide, hiding the window titlebar, and maximizing the window through the taskbar
 
-!!! warning ""
-    Do not launch Yomininja with always-on-top and a full-screen game, I experienced the overlay blocking everything and couldn't quit Yomininja or the game, ended up having to force shut down by pressing the power button.
+!!! warning
+    Do not launch Yomininja with always-on-top and a full-screen game! I experienced the overlay blocking everything and couldn't quit Yomininja or the game, ended up having to force shut down by pressing the power button.
