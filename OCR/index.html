@@ -582,6 +582,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Using OCR
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -591,6 +602,43 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#running-yomininja" class="md-nav__link">
+    <span class="md-ellipsis">
+      Running Yomininja
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-the-ocr" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using the OCR
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -816,6 +864,32 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#running-yomininja" class="md-nav__link">
+    <span class="md-ellipsis">
+      Running Yomininja
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-the-ocr" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using the OCR
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -830,47 +904,28 @@
 
 
 <h1 id="ocr">OCR</h1>
-<blockquote>
-<p>:heavy_exclamation_mark: CURRENTLY DOES NOT WORK. Steps below are for reference only of what I've tried.
-manga_ocr currently does not work due to missing xclip or wl-paste. It used to work but looks like some SteamOS update broke it.
-Also I'm having trouble installing owocr in a Python venv, but I need venv to install OCR services like Google Lens or EasyOCR, so I'm currently stuck.</p>
-</blockquote>
-<details>
-
-<summary>Just for my reference, does not work</summary>
-
-I'll be going through [OwOcr](https://github.com/AuroraWright/owocr) here. If you're comfortable with installing software through pacman, you can also check out YomiNinja.
-
-## Install OwOcr
-1. Create a Python virtual env (need this for manga_ocr on the Steam Deck, or it'll complain about externally managed environment and possibility of breaking the OS if you try to override it). Open Konsole and type or paste in following:
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="go">python3 -m venv ocr</span>
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="go">source ocr/bin/activate</span>
-</code></pre></div>
-2. install pip 
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="go">python -m ensurepip --upgrade</span>
-</code></pre></div>
-This will install pip into ~/.local/bin. We need to add this to PATH as well.   
-3. edit `~/.bashrc` in something like `Kate` or `vim`, add this to the end of the file:
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="k">if</span><span class="w"> </span><span class="o">[</span><span class="w"> </span>-d<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$HOME</span><span class="s2">/.local/bin&quot;</span><span class="w"> </span><span class="o">]</span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
-<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">  </span><span class="nv">PATH</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$HOME</span><span class="s2">/.local/bin:</span><span class="nv">$PATH</span><span class="s2">&quot;</span>
-<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="k">fi</span>
-</code></pre></div>
-4. Test it's working:
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="go">~/.local/bin/pip -V</span>
-</code></pre></div>
-5. Now we can install owocr:
-<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="go">pip install owocr</span>
-</code></pre></div>
-6. And install manga_ocr:
-<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="go">pip install manga_ocr</span>
-</code></pre></div>
-Reference: (https://www.reddit.com/r/SteamDeck/comments/x4ct1r/how_do_i_do_a_pip3_install/)
-
-## Using OwOcr
-`To be added`
-</details>
-
-<p>Note: I did not manage to try it, but it may be possible to install python and the ocr tools properly through podman and/or distrobox without having to unlock the Deck and use pac-man. If you manage to get it working, feel free to share!</p>
+<p>I have only limited experience with Yomininja so far, so this section may get expanded on later.
+Some other alternative OCR options are the OCR engine that comes with Agent, or <a href="https://github.com/AuroraWright/owocr">owocr</a>. (I have not tried them.)</p>
+<h2 id="running-yomininja">Running Yomininja</h2>
+<p><a href="https://github.com/matt-m-o/YomiNinja">Yomininja</a> has a lot of release files to cater for different operating systems; you don't need them all. Just download the <code>.AppImage</code> (example highlighted in the red box).</p>
+<p>Get the <code>.exe</code> if you're going to run in Windows (example highlighted in the yellow box).
+<img alt="Yomininja executable" src="../img/Yomininja_files.png" title="Yomininja executable" /></p>
+<h2 id="using-the-ocr">Using the OCR</h2>
+<div class="admonition note">
+<p>This section will be expanded later as I get around to trying it out more.</p>
+</div>
+<p>Launch your game, then just double click on the Yomininja AppImage to start it (it doesn't need any installation).
+After that, configure Yomininja settings. Try out the different settings like always-on-top, or the different OCR engines.</p>
+<p>Map a key to trigger Yomininja OCR in the game controller config.</p>
+<p>Known limitations: the always-on overlay only works with windowed games in SteamOS (not full-screen or borderless window). You can either:</p>
+<ul>
+<li>alt-tab to the overlay like how you would alt-tab to a browser texthook page</li>
+<li>live with windowed mode for your game</li>
+<li>workaround by faking a full-screen experience by setting the taskbar to autohide, hiding the window titlebar, and maximizing the window through the taskbar</li>
+</ul>
+<div class="admonition warning">
+<p>Do not launch Yomininja with always-on-top and a full-screen game, I experienced the overlay blocking everything and couldn't quit Yomininja or the game, ended up having to force shut down by pressing the power button.</p>
+</div>
 
 
 
