@@ -1,6 +1,7 @@
 # Getting Things Ready Before Playing
 
 Make sure your desktop controller mappings support Alt-Tab, and optionally hotkeys to save cards, screenshots and audio to Anki. (only need to do this once. See the section on [controller mapping](controller.md) for more details.)
+
 Also configure the game controller mapping to include Alt-Tab, and optionally trackpad for mouse move and clicks. Also optionally hotkeys to save screenshots and record audio to Anki. (Need to do per-game in Steam)
 
 Things you will want to launch every time you want to do immersion learning gaming:

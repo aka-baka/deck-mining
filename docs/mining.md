@@ -10,7 +10,7 @@ With thanks to Xythh whom I got the code snippet from and just made minor edits 
 
 Change the `pictureField` variable if your field name in the Anki card is different.
 
-``` bash title="ss_window.sh"
+``` bash title="ss_window.sh" linenums="1"
 #!/bin/sh
 
 ### capture screnshot with spectacle
@@ -185,20 +185,6 @@ You may want to connect a physical keyboard for this for an easier time. Alterna
 ## Mapping the shortcuts and other actions to controller buttons
 
 You'll want to map controller buttons to actions we need when mining.
-If you're launching the game through Steam, you'll need to set up both the desktop and also game-specific configs, as the latter will apply when the game is in focus.
-
-For reference, this is some relevant mappings I have in my desktop controller config:
-
-- L4 to Right Alt
-- R4 to Tab  (so I can hold down Alt, then keep tabbing through open windows)
-- R5 to Esc (to close the popup)
-- D-pad left to mine word to Anki (Alt+E)
-- D-pad right to replay Yomitan audio (Alt+P)
-- D-pad up to go to page up through results (Alt+PgUp)
-- D-pad down to go to page down through results (Alt+PgDn)
-
-If you have a scan modifier key (Yomitan will only popup if the key is pressed), map that too. I leave mine to 'none' so it pops up on hover or if I tap on the touchscreen.
-Refer to the [Yomitan docs](https://github.com/themoeway/yomitan/blob/master/docs/keyboard-shortcuts.md) for more shortcut keys you might be interested to use.
 
 Game controller config - you'll need to do this for every game. Map the shortcut triggers you set up earlier:
 
@@ -209,8 +195,10 @@ Game controller config - you'll need to do this for every game. Map the shortcut
     todo: clarify with screenshots
 ```
 
+Refer to [controller mapping](controller.md) for more details on other things to map.
+
 ## Enabling pop-up notification when saving screenshot or audio to Anki
 
 ```note
-    todo: write section with screenshots
+    todo: write section with screenshots. Need to change some system notification settings so it'll show up even when you have fullscreen windows.
 ```
