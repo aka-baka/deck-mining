@@ -754,6 +754,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Run Windows
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -763,6 +774,34 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tools-on-windows" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tools on Windows
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -816,6 +855,23 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tools-on-windows" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tools on Windows
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -830,18 +886,21 @@
 
 
 <h1 id="running-windows-on-the-steam-deck">Running Windows on the Steam Deck</h1>
-<p>For when something really cannot work in Linux, or you're lazy to fiddle around with Lutris/Bottle/proton settings to get a VN working. Or if a texthook only seems to work in Windows (Trails of Cold Steel Agent hook, for example). </p>
-<p>There are a few options:
-1. in SteamOS, run Windows as a virtual machine (using Boxes for example)
-2. dual-boot Windows from a SD card. Recommended if you're testing only and not for long-term use, as there's a high likelihood the SD card will fail earlier.
-Also the performance is going to be bad for games in general.
-3. dual-boot Windows from the internal SSD (or an external SSD). This is the option I recommend. Follow this guide: <a href="https://baldsealion.com/Steam-Deck-Ultimate-Windows-Guide/index.html">Bald Sealion's Steam Deck Ultimate Windows Guide</a></p>
-<h1 id="tools-on-windows">Tools on Windows</h1>
-<p>There are some tools I did not recommend in the main guide as the installation is a pain in Linux. If you're using Windows, you can consider using these tools:
-1. <a href="https://github.com/matt-m-o/YomiNinja">YomiNinja</a> for OCR
-2. <a href="https://github.com/rampaa/JL">JL</a> as an alternative to texthook pages. This overlays the text directly on top of the game window.
-Limitation: it supports mining to Anki, but not handlebars so you might not be able to use fancy Anki card templates that you use with Yomitan on a browser.
-3. <a href="https://getsharex.com/">ShareX</a> is an essential tool, you can get screenshots and record audio easily.</p>
+<p>For when something really cannot work in Linux, or you're lazy to fiddle around with Lutris/Bottle/proton settings to get a VN working. Or if a texthook only seems to work in Windows (Trails of Cold Steel Agent hook, for example).</p>
+<p>There are a few options:</p>
+<ol>
+<li>in SteamOS, run Windows as a virtual machine (using Boxes for example)</li>
+<li>dual-boot Windows from a SD card. Recommended if you're testing only and not for long-term use, as there's a high likelihood the SD card will fail earlier.
+Also the performance is going to be bad for games in general.</li>
+<li>dual-boot Windows from the internal SSD (or an external SSD). This is the option I recommend. Follow this guide: <a href="https://baldsealion.com/Steam-Deck-Ultimate-Windows-Guide/index.html">Bald Sealion's Steam Deck Ultimate Windows Guide</a></li>
+</ol>
+<h2 id="tools-on-windows">Tools on Windows</h2>
+<p>There are some tools I did not recommend in the main guide as the installation is a pain in Linux. If you're using Windows, you can consider using these tools:</p>
+<ol>
+<li><a href="https://github.com/rampaa/JL">JL</a> as an alternative to texthook pages. This overlays the text directly on top of the game window.
+Limitation: it supports mining to Anki, but not handlebars so you might not be able to use fancy Anki card templates that you use with Yomitan on a browser.</li>
+<li><a href="https://getsharex.com/">ShareX</a> is an essential tool, you can get screenshots and record audio easily. (On SteamOS, we just use the built-in Spectacle and some bash scripts instead)</li>
+</ol>
 
 
 
@@ -862,7 +921,7 @@ Limitation: it supports mining to Anki, but not handlebars so you might not be a
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 27, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 31, 2024</span>
   </span>
 
     

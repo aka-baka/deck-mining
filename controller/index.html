@@ -670,6 +670,24 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#example-desktop-config" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example desktop config
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-game-config" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example game config
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#tips" class="md-nav__link">
     <span class="md-ellipsis">
       Tips
@@ -898,6 +916,24 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#example-desktop-config" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example desktop config
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-game-config" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example game config
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#tips" class="md-nav__link">
     <span class="md-ellipsis">
       Tips
@@ -940,24 +976,39 @@
 
 
 <h1 id="controller-config">Controller config</h1>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>    todo: link to the mining shortcuts section
-</code></pre></div>
+<p>If you're launching the game through Steam, you'll need to set up both the desktop and also game-specific configs, as the latter will apply when the game is in focus.</p>
+<p>If you're not launching through Steam, then the desktop config will apply. For this reason, I prefer to add my non-Steam games to Steam and launch from there, so I can have customized controller configs per game.</p>
 <p>Please learn how to change the controller config of games in Steam separately, I won't be covering that in this guide.</p>
 <h2 id="desktop-vs-game-config">Desktop vs game config</h2>
-<p>Game configs are per-game, and are active when the game is in focus.</p>
+<p>Game configs are per-game, and are active when the game is in focus. <em>You need to configure this for each game.</em> (Templates might help, see below.)</p>
 <p>Desktop config is active when the game is <em>not</em> in focus.</p>
 <p>As such, you'll want to ensure Alt+Tab is mapped for both configs, otherwise you may be able to tab away from the game but not back, or vice-versa.</p>
-<h2 id="tips">Tips</h2>
-<p>For some reason left Alt+Tab doesn't work for me to tab away from game. But Right Alt+Tab does.
-Personally I map Right Alt to L4, and Tab to R4. This way, I can keep holding Alt while tabbing a few times to swap between multiple windows, instead of just toggling between the 2 most recent.</p>
-<p>If you're using SteamTinkerLaunch, you'll want to ensure something (I suggest touchpad) is mapped to mouse movement and click in the game config so that you can click on the menu.</p>
-<p>Steam + x will bring up the on-screen keyboard.</p>
+<h2 id="example-desktop-config">Example desktop config</h2>
+<p>For reference, this is some relevant mappings I have in my desktop controller config:</p>
+<ul>
+<li>L4 to Right Alt</li>
+<li>R4 to Tab  (so I can hold down Alt, then keep tabbing through open windows)</li>
+<li>R5 to Esc (to close Yomitan popup)</li>
+<li>D-pad left to mine word in Yomitan to Anki (Alt+E)</li>
+<li>D-pad right to replay Yomitan audio (Alt+P)</li>
+<li>D-pad up to go to page up through results (Alt+PgUp)</li>
+<li>D-pad down to go to page down through results (Alt+PgDn)</li>
+</ul>
+<p>If you have a scan modifier key for Yomitan (it will only popup if the key is pressed), map that too. I leave mine to 'none' so it pops up on hover or if I tap on the touchscreen. <code>Alt</code> is a good choice for scan modifier key as it should already be mapped to a button for our alt-tab usage.</p>
+<p>Refer to the <a href="https://github.com/themoeway/yomitan/blob/master/docs/keyboard-shortcuts.md">Yomitan docs</a> for more shortcut keys you might be interested to use and map those if you want.</p>
+<h2 id="example-game-config">Example game config</h2>
 <p>For VNs, you'll likely want to map these actions if it's not already in your config:</p>
 <ul>
 <li>replay audio</li>
 <li>bring up backlog</li>
 <li>quick save, quick load</li>
 </ul>
+<p>If you're mining, also remember to map the keys for capturing screenshots and recording audio.</p>
+<h2 id="tips">Tips</h2>
+<p>For some reason left Alt+Tab doesn't work for me to tab away from game. But Right Alt+Tab does.
+Personally I map Right Alt to L4, and Tab to R4. This way, I can keep holding Alt while tabbing a few times to swap between multiple windows, instead of just toggling between the 2 most recent.</p>
+<p>If you're using SteamTinkerLaunch, you'll want to ensure something (I suggest touchpad) is mapped to mouse movement and click in the game config so that you can click on the menu. Or, you can use the touch screen or an external mouse when configuring SteamTinkerLaunch for your game.</p>
+<p>Steam + x will bring up the on-screen keyboard.</p>
 <h2 id="templates">Templates</h2>
 <p>(WIP) It should be possible to save a config as a template to make it easier to set up for other games, but I have not done this yet.</p>
 <h2 id="advanced-mappings">Advanced mappings</h2>
@@ -989,7 +1040,7 @@ Personally I map Right Alt to L4, and Tab to R4. This way, I can keep holding Al
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 27, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 31, 2024</span>
   </span>
 
     
