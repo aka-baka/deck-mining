@@ -28,3 +28,4 @@ Known limitations: the always-on overlay only works with windowed games in Steam
 
 !!! warning
     Do not launch Yomininja with always-on-top and a full-screen game! I experienced the overlay blocking everything and couldn't quit Yomininja or the game, ended up having to force shut down by pressing the power button.
+    Update: found out you can toggle or turn off the overlay. Make sure the shortcut is mapped to something before you start so you can avoid this experience of getting stuck!

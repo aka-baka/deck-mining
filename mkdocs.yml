@@ -10,7 +10,7 @@ nav:
     - Tools: 'setupTools.md'
     - Getting Things Ready Before Playing: 'beforePlaying.md'
     - Hooking Steam Games: 'hookSteamGames.md'
-    - Hooking Lutris or Other proton Launcher Games: 'hookLutrisGames.md'
+    - Hooking Lutris or Other Proton Launcher Games: 'hookLutrisGames.md'
     - Hooking Linux Games or Emulators: 'hookEmuDeck.md'
     - Using OCR: 'OCR.md'
     - Mining to Anki: 'mining.md'
@@ -85,3 +85,6 @@ plugins:
       lang:
         - en
         - ja
+
+extra:
+  generator: false

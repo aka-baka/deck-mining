@@ -13,15 +13,15 @@ I will also cover a little of my experience with dual-booting Windows on the Dec
 
 If you're planning to go the Windows route (dual-boot/VM), the tips and controller section of the guide might still be helpful. Otherwise the tools are similar to Windows PC mining workflow which are shared in some other guides, for example [Xelieu's Lazy Guide](https://xelieu.github.io/jp-lazy-guide/setup/), or [Donkuri's guide](https://donkuri.github.io/learn-japanese/).
 
-If you are planning on playing a lot of VN's that are not Steam Deck certified or has native Linux supoprt, you might have to fiddle with some proton prefixes or install additional codecs to get them playing properly. If you don't have the patience to figure out these technical details for each game, you might want to consider using Windows - see [Running Windows on the Steam Deck](runWin.md) for more info.
+If you are planning on playing a lot of VNs that are not Steam Deck certified or have native Linux support, you might have to fiddle with some proton prefixes or install additional codecs to get them playing properly. If you don't have the patience to figure out these technical details for each game, you might want to consider using Windows - see [Running Windows on the Steam Deck](runWin.md) for more info.
 
 ## Guide structure
 
 This guide will go through:
 
 - tools setup (you can choose to install only those you need)
-- demos
 - controller config and other Steam Deck tips
+- demos
 - extras (Windows, other resources)
 
 Note: I assume some familiarity with the mining workflow already and will not go in-depth into using Textractor or Agent. If you have not used them before, please refer to the tool manual or the other guides I've linked that do teach how to use them.
